@@ -1,0 +1,119 @@
+BODY
+{
+    BACKGROUND-COLOR: #FFFFFF;
+    COLOR: #333366;
+    FONT-FAMILY: 'Times New Roman'
+}
+H1
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+H2
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+H3
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H4
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H5
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+H6
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+TH {
+ color: #6060cc
+}
+
+
+.drpdwn
+{
+	font-family:Verdana;
+	font-size:10px;
+	width:auto;
+	border-width:thin;
+	background-color:#CFE8FF;
+	border:1px;
+	border-style:solid; 
+	border-color:#8BB7DF;
+    }
+    .txtBoxL
+    {
+    	font-family:Verdana;
+    	font-size:10px;
+    	border-width:thin;
+    	background-color:#FFFFFF;
+    	border:1px;
+    	border-style:solid;
+    	border-color:#8BB7DF;
+    	text-align:left;
+}
+
+.login_label, .login_input, .login_error  {
+  padding:10px;
+  color:#000;
+  text-align:left;
+  float:left; 
+  width:100px;
+  font-size:20px;
+  color:#64355A;
+}
+
+.login_input {
+  width:200px;
+}
+
+.login_error {
+  width:250px;
+  color:#F00;
+}
+
+.login_input input {
+  width:100%;
+}
+#login {
+  background:#123;
+}
+body {
+  background: #363636;
+}
+#border {
+  position:absolute;
+  top:10px;
+  left:10px;
+  width:500px;
+  height:500px;
+  border: 1px solid #000;
+  overflow:hidden;
+}
+#container {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:500px;
+  height:500px;
+  overflow:hidden;
+  background:#DAEE9B;
+  z-index:0;
+}

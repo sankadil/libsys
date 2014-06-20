@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN"
+                               "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+
+	<!-- Data Sources -->
+	<data-sources>
+	</data-sources>
+
+	<!-- Form Beans -->
+	<form-beans>
+		<form-bean name="formSimpleSearch" type="libsys.forms.FormSimpleSearch">
+		</form-bean>
+		<form-bean name="formISBN" type="libsys.forms.FormISBN">
+		</form-bean>
+		<form-bean name="formSearch" type="libsys.forms.FormSearch">
+		</form-bean>
+		<form-bean name="formAditionalSearch" type="libsys.forms.FormAditionalSearch">
+		</form-bean>
+	</form-beans>
+
+	<!-- Global Exceptions -->
+	<global-exceptions>
+	</global-exceptions>
+
+	<!-- Global Forwards -->
+	<global-forwards>
+	</global-forwards>
+
+	<!-- Action Mappings -->
+	<action-mappings>
+		<action name="formSimpleSearch" path="/ActionSimpleSearch" scope="session" type="libsys.actions.ActionSimpleSearch">
+			<forward name="ActionSimpleSearch" path="./bookDetails.jsp">
+			</forward>
+		</action>
+		<action name="formISBN" path="/ActionISBN" scope="session" type="libsys.actions.ActionISBN">
+			<forward name="ActionISBN" path="./bookDetails.jsp">
+			</forward>
+		</action>
+		<action name="formSearch" path="/ActionSearch" scope="session" type="libsys.actions.ActionSearch">
+			<forward name="ActionSearch" path="./bookDetails.jsp">
+			</forward>
+		</action>
+		<action name="formAditionalSearch" path="/ActionAditionalSearch" scope="session" type="libsys.actions.ActionAditionalSearch">
+			<forward name="ActionAditionalSearch" path="./bookDetails.jsp">
+			</forward>
+		</action>
+	</action-mappings>
+
+	<!-- Message Resources -->
+	<message-resources parameter="libsys.resources.ApplicationResources"/>
+
+</struts-config>
